@@ -7,3 +7,8 @@ for(var i = 0; i < aTags.length; i++){
 		window.location.replace(ele.getAttribute('data-href'));
 	});
 }
+
+$(document).ready(function() {
+	var contentPlacement = $('#banner').position().top + $('#banner').height();
+	$('#body').css('margin-top', contentPlacement);
+});
