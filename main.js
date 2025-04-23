@@ -9,6 +9,6 @@ for(var i = 0; i < aTags.length; i++){
 }
 
 $(document).ready(function() {
-	var contentPlacement = $('#banner').position().top + $('#banner').height();
+	var contentPlacement = $('#Banner').position().top + $('#Banner').height();
 	$('#body').css('margin-top', contentPlacement);
 });
