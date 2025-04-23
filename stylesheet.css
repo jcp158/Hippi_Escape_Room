@@ -14,12 +14,8 @@ html {
 	top: 0;
 	left: 0;
 	z-index: 1000;
-	clear: both;
 }
 
-body {
-	position: relative;
-}
 #body h1 {
 	
 	color:black;
@@ -33,7 +29,7 @@ body {
 #body h2 {
 	color: black;
 	font-size: 2.2em;
-	margin-top: 150px;
+	margin-top: 30px;
 	margin-bottom: 35px;
 	margin-right: 150px;
 	margin-left: 80px;
